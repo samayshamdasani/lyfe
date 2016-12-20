@@ -1,0 +1,59 @@
+html, body {
+  font-family: Avenir Next, Palatino, serif;
+  padding-left: 5%;
+  padding-right: 5%;
+  transition: .2s ease;
+}
+
+
+h1, h2 {
+  padding: 0;
+  margin: 0;
+}
+
+h1{
+  letter-spacing: 20px;
+  font-size: 5.9vw;
+  padding-top: 5%;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.event {
+  padding-top: 2%;
+}
+
+.slash {
+  font-size: 30px;
+}
+
+
+h3 {
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+h3.major {
+  font-size: 66px;
+}
+p {
+    padding: 0;
+}
+p.about {
+  font-size: 22px;
+}
+
+
+p.quote {
+  font-size: 32px;
+  padding-left: 3%;
+}
+
+.mark {
+  font-size: 48px;
+  font-family: Courier, monospace;
+}
