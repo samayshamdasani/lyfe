@@ -1,15 +1,24 @@
 html, body {
   font-family: Avenir Next, Palatino, serif;
-  padding-left: 5%;
-  padding-right: 5%;
+  margin: 0 auto;
   transition: .2s ease;
+  max-width: 80em;
 }
 
 
-h1, h2 {
+h1, h2, .event {
   padding: 0;
   margin: 0;
 }
+
+@media (max-width:650px){
+      h1, h2, .event {
+      padding: 2%;
+      margin: 0;
+      }
+
+    }
+
 
 h1{
   letter-spacing: 20px;
@@ -20,6 +29,26 @@ h1{
 h2 {
   font-weight: 400;
   font-size: 22px;
+  padding-bottom: 10px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  padding:0;
+}
+
+iframe {
+max-width: 100%;
+}
+
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  font-style: italic;
 }
 
 .event {
@@ -40,6 +69,11 @@ h3 {
 h3.major {
   font-size: 66px;
 }
+
+h3.middle {
+  font-size: 44px;
+}
+
 p {
     padding: 0;
 }
